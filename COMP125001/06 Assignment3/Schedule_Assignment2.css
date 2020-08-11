@@ -1,0 +1,67 @@
+﻿body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+	background-image: url('../06 Assignment3/images/math-background-design-clipart-1.jpg');
+}
+header{
+height: 100px;
+	}
+
+h1 {
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	font-size: 70px;
+	text-align: middle;
+    color: #264400;
+	
+}
+.fieldLabel {
+	vertical-align: top;
+	text-align: right;
+	font-size:large;
+	font-family:Arial, Helvetica, sans-serif;
+	color:green
+}
+
+.auto-style2 {
+	font-size: large;
+	color: green;
+	background-color: #FFFFFF;
+}
+.auto-style3 {
+	font-size: large;
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.auto-style4 {
+	color: green;
+	font-size: large;
+}
+
+
+
+
+
+#copyright {
+	font-size: x-small;
+	color: white;
+	background-color: #264400;
+	padding: 8px;
+}
+#allPage {
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+label {
+	width: 250px;
+	float: left;
+	text-align: right;
+}
+fieldset {
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #808080;
+}
+
+article tr:nth-child(even){
+    background-color: grey;
+}

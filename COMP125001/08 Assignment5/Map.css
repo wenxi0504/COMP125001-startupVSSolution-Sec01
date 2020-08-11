@@ -1,0 +1,27 @@
+﻿
+body {
+    line-height: 1;
+    width: 640px;
+    background-image: url('../08 Assignment5/images/musichouse2.jpg');
+    margin: 0 auto;
+    font-family: Verdana, Geneva, sans-serif;
+    height: 100%;
+    padding: 0;
+}
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: transparent;
+    width: 100%;
+    color: #FFFFFF;
+    font-size: 20px;
+    text-align: left;
+    line-height: 1.5em;
+}
+#map {
+    height: 100%;
+}
+

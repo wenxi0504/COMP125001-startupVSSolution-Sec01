@@ -1,0 +1,121 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <!--Created by: Wen Sophie Xu - Created on:July,19,2020-->
+    <!--Assignment4-->
+    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Golden Rocks National Park - Account Setup</title>
+    <link rel="stylesheet" media="screen and (min-device-width: 1000px)" href="membershipStyles.css" />
+    <!--[if lt IE 9]>
+       <link rel="stylesheet" href="styles.css" />
+    <![endif]-->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+    <script src="modernizr.custom.65897.js"></script>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Member Registration</h1>
+        </header>
+    </div>
+
+    <article>
+        <h2>Please complete all fields below:</h2>
+        <form>
+            <fieldset class="text">
+                <label for="firstname">First Name:</label>
+                <input type="text" id="firname" required="required"/>
+                <p id="firstnameError" class="errorMsg"></p>
+
+                <label for="lastname">Last Name:</label>
+                <input type="text" id="lastname" required="required" />
+                <p id="lastnameError" class="errorMsg"></p>
+
+                <label for="address">Address:</label>
+                <input type="text" id="addrinput" required="required"/>
+                <p id="addressError" class="errorMsg"></p>
+
+                <label for="city">City:</label>
+                <input type="text" id="cityinput" required="required" />
+                <p id="cityError" class="errorMsg"></p>
+
+                <label for="postalcode">Postal Code:</label>
+                <input type="text" id="postalcodeinput" required="required"/>
+                <p id="postalcodeError" class="errorMsg"></p>
+
+                <label for="province">Province:</label>
+                <input type="text" id="provinput" required="required" />
+                <p id="provinceError" class="errorMsg"></p>
+
+                <label for="age">Age:</label>
+                <input type="number" id="ageinput"  required="required"/>
+                <p id="ageError" class="errorMsg"></p>
+
+                <label for="pw1">Password</label>
+                <input type="password" id="pw1"  required="required"/>
+
+                <label for="pw2">Password (confirm)</label>
+                <input type="password" id="pw2" required="required" />
+                <p id="passwordError" class="errorMsg"></p>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="emailbox" required="required" />
+                <p id="emailError" class="errorMsg"></p>
+
+                <input type="button" id="submitBtn" value="Register Now" onclick="setUpPages()" />
+                <input type="reset" id="resetBtn" value="Clear Form" onclick="resetFunction()" />
+            </fieldset>
+        </form>
+        <section id="profile">
+            <h3>Profile</h3>
+            <div id="firstnameSection">
+                <h4>First Name</h4>
+                <p id="profileFirstname"></p>
+            </div>
+
+            <div id="lastnameSection">
+                <h4>Last Name</h4>
+                <p id="profileLastname"></p>
+            </div>
+
+            <div id="addressSection">
+                <h4>Address</h4>
+                <p id="profileAddress"></p>
+            </div>
+
+            <div id="citySection">
+                <h4>City</h4>
+                <p id="profileCity"></p>
+            </div>
+
+            <div id="postalcodeSection">
+                <h4>Postal Code</h4>
+                <p id="profilePostalCode"></p>
+            </div>
+
+            <div id="provinceSection">
+                <h4>Province</h4>
+                <p id="profileProvince"></p>
+            </div>
+
+            <div id="ageSection">
+                <h4>Age</h4>
+                <p id="profileAge"></p>
+            </div>
+
+            <div id="emailSection">
+                <h4>Email address</h4>
+                <p id="profileEmail"></p>
+            </div>
+            
+
+        </section>
+    </article>
+    <footer><p>&copy;&nbsp;Copyright Wen Xu-Centennial College-COMP125-Web Design</p></footer>
+    <script src="Membership.js"></script>
+</body>
+</html>

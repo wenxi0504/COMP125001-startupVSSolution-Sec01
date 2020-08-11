@@ -1,0 +1,13 @@
+﻿body {
+    line-height: 1;
+    width: 640px;
+    background-image: url('../07 Assignment4/images/MembershipBackground2.jpg');
+    margin: 0 auto;
+    font-family: Verdana, Geneva, sans-serif;
+}
+article {
+    width: 640px;
+    text-align: left;
+    background: white;
+    overflow: auto;
+}

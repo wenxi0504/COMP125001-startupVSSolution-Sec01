@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<!--Created by: Wen Sophie Xu - Created on:June,12 2020-->
+<html lang="en">
+
+<head>
+<meta content="en-us" http-equiv="Content-Language">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>Week3 Assignment - Harris-Benedict equation</title>
+<meta content="HTML form, COMP213" name="keywords">
+<meta content="Example of using HTML forms." name="description">
+<link href="Assignment1.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="allPage">
+<header>
+	<img src="images/HealthCalc-BMR-HB2.jpg" alt="Harris Benedict equation" title="" width="976"  />
+	</header>
+	
+
+<article>
+<form action="mailto:wenxu63@my.centennialcollege.ca" method="post">
+	<fieldset>
+		<legend>Harris–Benedict BMR Calculator</legend>
+		<label>GENDER</label><select name="gender" id="gender">
+			<option>Male</option>
+			<option>Female</option>
+		</select><br><br>
+		<label>UNITS</label><select name="units" id="units">
+			<option>Metric</option>
+			<option>Imperial</option>
+		</select><br><br>
+
+		<label>AGE</label><input type="number" min="0" id="age" value="" style="width: 100px" /><br><br>
+		<label>YOUR HEIGHT</label><br><br>
+		<label>FEET</label><input type="number" min="0" id="feet" value="0" style="width: 100px" /><br>
+		<label>INCHES</label><input type="number" min="0" id="inches" value="0" style="width: 100px" /><br><br>
+		<label>YOUR WEIGHT</label><br>
+
+
+		<label>POUNDS</label><input type="number" min="0" id="pounds" value="0" style="width: 100px" /><br>
+		<p>Select your actibity level:</p>
+		<input name="optactivitylevel" tabindex="11" type="radio" value="Sed">I am sedentary(little or no exercise)<br>
+		<input name="optactivitylevel" tabindex="13" type="radio" value="Lig">I am lightly active(light exercise or sports 1-3 days per week)<br>
+		<input name="optactivitylevel" tabindex="15" type="radio" value="Mid">I am miderately active(moderate exercise or sports 3-5days per week)<br>
+		<input name="optactivitylevel" tabindex="17" type="radio" value="Ver">I am very active(hard exercise or sports 6-7 days per week)<br>
+		<input name="optactivitylevel" tabindex="19" type="radio" value="Sup"> I am super active(very hard exercise or sports and a physical job or 2xtraining)<br>
+		<label><input name="btnSubmit"  id="submitbuttom"tabindex="21" type="button" value="Calculator BMR"></label>
+		<label><input name="reset" id="reset" tabindex="24" type="reset" value="Reset"></label>
+	</fieldset>
+	 <p>Your BMR: <span id="BMR"></span></p>
+	</form>
+	</article>
+	
+
+<footer>
+<p id="copyright">&copy;&nbsp;Copyright Wen Sophie Xu</p>
+</footer>
+
+ 
+
+</div>
+	 <script src="Assignment1.js"></script>
+</body>
+
+</html>
