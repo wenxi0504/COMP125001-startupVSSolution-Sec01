@@ -98,6 +98,7 @@
     <Content Include="08 Assignment5\Map.html" />
     <Content Include="08 Assignment5\Map.css" />
     <Content Include="09 Assignment6\PhoteGallery.html" />
+    <Content Include="09 Assignment6\PhotoGallery.css" />
     <Content Include="09 Assignment6\PhotoGallery.js" />
     <Content Include="Ch01Code\Chapter\images\blanket.jpg" />
     <Content Include="Ch01Code\Chapter\images\bluestem.jpg" />

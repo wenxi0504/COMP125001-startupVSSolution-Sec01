@@ -1,9 +1,22 @@
-{
-  "name": "Cat Photo Gallery List",
-  "Photo1": "Cat1",
-  "Photo2": "Cat2",
-  "Photo3": "Cat3",
-  "Photo4": "Cat4",
-  "Photo5": "Cat5"
-
-}
+[
+  {
+    "Photo": "Cat Photo Gallery List:",
+    "link": ""
+  },
+  {
+    "Photo": "Photo No1:Yellow Cat",
+    "link": "../09 Assignment6/images/cat1-500mileseconds.jpg"
+  },
+  {
+    "Photo": "Photo No2: American Shorthair Cat",
+    "link": "../09 Assignment6/images/cat2-300mileseconds.jpg"
+  },
+  {
+    "Photo":"Photo No3: Chinese Dragon-Li Cat",
+    "link": "../09 Assignment6/images/cat3-600mileseconds.jpg"
+  },
+  {
+    "Photo": "Photo No4: British Shorthair Cat",
+    "link": "../09 Assignment6/images/cat4-400mileseconds.jpg"
+  }
+]

@@ -3,10 +3,35 @@
 <head>
     <meta charset="utf-8" />
     <title>Ajax and JQuery</title>
+    <link href="PhotoGallery.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
-<header>Photo Gallery</header>
-<button id="btn">Upload Photo List</button>
+<header>
+    <h1>Photo Gallery</h1>
+    <button id="btn">Upload Photo List(AJAX)</button>
+    <button id="nextBtn">Next Photo(JQuery) </button>
+    <button id="preBtn">Previous Photo(JQuery) </button>
+</header>
+<div id="photolist"></div>
+<div class="container">
+    <div class="col" id="photoItems">
+       <!-- <div class="box"><img id="photo" src="../09 Assignment6/images/cat1-500mileseconds.jpg"></div>
+        <div class="box"><img id="photo"src="../09 Assignment6/images/cat2-300mileseconds.jpg"></div>
+        <div class="box"><img id="photo"src="../09 Assignment6/images/cat3-600mileseconds.jpg"></div>
+        <div class="box"><img id="photo" src="../09 Assignment6/images/cat4-400mileseconds.jpg"></div>-->
+    </div>
+    <div class="col">
+        <div class="full-image" id="fimg">
+            <!--<img src="../09 Assignment6/images/cat1-500mileseconds.jpg">-->
+        </div>
+       </div>
+</div>
+
+
+
+
+
 <script src="PhotoGallery.js"></script>
 </body>
 </html>
